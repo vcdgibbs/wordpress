@@ -61,9 +61,9 @@ spec:
         ports:
         - containerPort: 80
           name: wordpress
-        securityContext:
-          runAsUser: 33  # ID de usuario para www-data
-          runAsGroup: 33 # ID de grupo para www-data
+        #securityContext:
+        #  runAsUser: 33  # ID de usuario para www-data
+        #  runAsGroup: 33 # ID de grupo para www-data
         volumeMounts:
         - name: wordpress-persistent-storage
           mountPath: /var/www/html
