@@ -79,8 +79,8 @@ metadata:
 spec:
   ingressClassName: kommander-traefik
   rules:
-    #- host: wordpress.10.10.0.202.sslip.io
-    - host: wordpress.apps.nkp.ntnxlab.local
+    - host: wordpress.10.38.46.17.sslip.io
+    #- host: wordpress.apps.nkp.ntnxlab.local
       http:
         paths:
           - path: /
